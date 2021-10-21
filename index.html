@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev2_3 Forms</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Register Form</legend>
+            <div>
+                <label type="text" name="Name">Name</label>
+                <input type="text"name="Name" placeholder="Name"></input>
+            </div>
+            <div>
+                <label type="text" name="Surname">Surname</label>
+                <input type="text"name="Surname" placeholder="Surname"></input>
+            </div>
+            <div>
+                <label type="text" name="email">Email</label>
+                <input type="email"name="email" placeholder="Email"></input>
+            </div>
+            <div>
+                <label type="text" name="gender">Gender</label>
+                <input type="radio" name="gender"> Male</input>
+                <input type="radio" name="gender"> Female</input>
+            </div>
+            <div>
+                <label type="text" name="file">Picture</label>
+                <input type="file"name="email" placeholder="Choose File"></input>
+            </div>
+            <div>
+                <label type="text" name="country">Country</label>
+                <select name="country">
+                    <option value="Germany">Germany</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+                </select>
+            </div>
+            <div>
+                <label type="text" name="language">Preferred language</label>
+                <select name="language" multiple>
+                    <option value="HTML">HTML</option>
+                    <option value="JS">JS</option>
+                    <option value="Python">Python</option>
+                    <option value="c">C++</option>
+                    <option value="css">CSS</option>
+                    </select>
+            </div>
+            <div>
+                <label type="text" name="activity">Field of activity</label>
+                <input type="checkbox" name="activity">IT</input>
+                <input type="checkbox" name="activity">Design</input>
+                <input type="checkbox" name="activity">Other</input>
+            </div>
+            <div>
+                <button type="submit" name="send">SEND</button>
+                <button type="reset" name="reset">CANCEL</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
